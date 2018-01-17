@@ -1,7 +1,9 @@
 # polybar-random-quote
 Random quote script for Polybar. Thanks http://forismatic.com for API.
 ### Module
-```[module/quote]
+```
+[module/quote]
 type = custom/script
 exec = ~/.config/polybar/quote/quote.py
-interval = 30```
+interval = 30
+```
