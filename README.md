@@ -2,7 +2,15 @@
 Random quote script for [Polybar](https://github.com/jaagr/polybar). Thanks http://forismatic.com for API.
 ![preview](https://github.com/soapmangoesdown/polybar-random-quote/raw/master/preview.png)
 
-### Module
+## Installation
+```sh
+cd ~/.config/polybar
+curl -LO https://github.com/soapmangoesdown/polybar-quote/archive/master.tar.gz
+tar zxf master.tar.gz && rm master.tar.gz
+mv polybar-quote-master random-quote
+```
+
+## Module
 ```ini
 [module/quote]
 type = custom/script
