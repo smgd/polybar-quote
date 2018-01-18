@@ -26,7 +26,7 @@ interval = 60
 ```
 
 ### Script arguments
-`-l` or `--lang` - to change quote language ('ru' or 'en'), default: en.
+`-l` or `--lang` - to change quote language ('ru' or 'en'), default: en;
 
 `-s` or `--size` - to change the maximum length of the quote, default: 150.
 
