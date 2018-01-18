@@ -7,6 +7,7 @@ Random quote script for [Polybar](https://github.com/jaagr/polybar). Thanks http
 sudo pip install requests
 ```
 Also you need an internet connection.
+
 ## Installation
 ```sh
 cd ~/.config/polybar
@@ -23,9 +24,12 @@ exec = ~/.config/polybar/random-quote/quote.py
 click-left = python ~/.config/polybar/random-quote/goo.py
 interval = 60
 ```
+
 ### Script arguments
 `-l` or `--lang` - to change quote language ('ru' or 'en'), default: en.
+
 `-s` or `--size` - to change the maximum length of the quote, default: 150.
+
 #### Example
 ```ini
 [module/quote]
