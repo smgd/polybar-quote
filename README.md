@@ -6,7 +6,7 @@ Random quote script for [Polybar](https://github.com/jaagr/polybar). Thanks http
 ```ini
 [module/quote]
 type = custom/script
-exec = ~/.config/polybar/random-quote/quote.py --lang='ru'
+exec = ~/.config/polybar/random-quote/quote.py
 click-left = python ~/.config/polybar/random-quote/goo.py
 interval = 60
 ```
