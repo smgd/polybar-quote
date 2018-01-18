@@ -1,4 +1,4 @@
-# polybar-random-quote
+# polybar-quote
 Random quote script for [Polybar](https://github.com/jaagr/polybar). Thanks http://forismatic.com for API.
 ![preview](https://github.com/soapmangoesdown/polybar-random-quote/raw/master/preview.png)
 
